@@ -47,6 +47,7 @@ function Home() {
         </h2>
       
     <br />
+  
       <h1 className="carrouselTitle" id="servicios">Creamos momentos inolvidables</h1>
         <div className="carrouselImg">
           <article className="carrousel">
