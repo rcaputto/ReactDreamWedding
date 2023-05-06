@@ -1,8 +1,8 @@
 
-import imageCarrousel1 from '../public/images/random/pexels-agung-pandit-wiguna-2970287.jpg';
-import imageCarrousel2 from '../public/images/random/pexels-danielle-reese-2496344.jpg';
-import imageCarrousel3 from '../public/images/random/pexels-dmitry-zvolskiy-1676123.jpg';
-import imageCarrousel4 from '../public/images/random/pexels-emir-kaan-okutan-2403568.jpg';
+import imageCarrousel1 from '../public/images/random/TDW-55.jpg';
+import imageCarrousel2 from '../public/images/random/TDW-60.jpg';
+import imageCarrousel3 from '../public/images/random/TDW-69.jpg';
+import imageCarrousel4 from '../public/images/random/WP.jpg';
 import '../public/css/home.css';
 
 function Home() {

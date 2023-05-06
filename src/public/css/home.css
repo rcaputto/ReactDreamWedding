@@ -20,8 +20,8 @@
   
   .homeImage {
     
-  height: 95vh;
-    background-image: url('../images/pexels-asad-photo-maldives-1024993.jpg');
+  height: 100vh;
+    background-image: url('../images/mainImage.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -68,6 +68,7 @@
     color: white;
     justify-self:end;
     border-bottom: 4px solid white;
+    margin-bottom: 8rem;
     
     
   }
@@ -111,16 +112,17 @@
   .slogan{
     font-family: 'Allura', cursive;
     font-size: 72px;
-    color: black;
-    font-weight: 580;
-    margin-top:-22rem;
-    margin-left: 32rem;
+    color: var(--bs-lightPink);
+    font-weight: 550;
+    margin-top:-20rem;
+    margin-left: -20rem;
   }
   .sloganCopy{
     font-family: 'Allura', cursive;
+    color: var(--bs-lightPink);
     font-size: 46px;
-    font-weight: 500;
-    margin-left: 32rem;
+    font-weight: 600;
+    margin-left: -28rem;
   }
 
   .carrousel {
