@@ -1,0 +1,26 @@
+:root{
+  --bs-grassGreen: #586d45;
+  --bs-orange: #ecc052;
+  --bs-lightGreen: #c6d1ac;
+  --bs-green: #a5b29d;
+  --bs-lightPink: #fad4c8;
+  --bs-lightgray:#f1eae1;
+  --bs-gray:#c3cfc2;
+}
+
+  .carouselCard{
+    height: 400px;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    background-color:var(--bs-lightgray)
+  }
+
+  
+ 
+  
+  
+  
+ 
+  
+
+  
