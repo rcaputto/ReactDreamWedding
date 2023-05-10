@@ -12,7 +12,8 @@
     height: 400px;
     padding-top: 4rem;
     padding-bottom: 8rem;
-    background-color:var(--bs-lightgray)
+    background-color:var(--bs-lightgray);
+    margin-bottom: 8rem;
   }
 
   

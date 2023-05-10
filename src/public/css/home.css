@@ -76,11 +76,11 @@
 
 
   .logo{
-    width: 40%;
+    width: 25%;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-     margin-top: 2rem;
+     margin-top: 6rem;
      margin-left: 2rem;
      animation: myAnim 1s ease 0s 1 normal forwards;
     
@@ -162,10 +162,7 @@
     border-bottom: 4px #f1c40f solid;
     transition: 0.5s;
   }
-  #nav-links{
-    
-    position: fixed;
-  }
+ 
   
   .hide {
     top: 70px;

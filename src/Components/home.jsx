@@ -1,7 +1,8 @@
 
 
 import '../public/css/home.css';
-import CarouselWeb from './CarouselWeb'
+import CardsApp from './CardsApp';
+
 
 
 function Home() {
@@ -24,7 +25,8 @@ function Home() {
           Sin estrés ni preocupaciones...
         </h2>
         <article className='carouselCard'>
-    <CarouselWeb/>
+    <CardsApp/>
+    <br/>
     </article>
       
     </>
