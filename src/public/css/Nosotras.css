@@ -1,0 +1,48 @@
+.nosotras{
+    margin-top: 16rem;
+    margin-bottom: 4rem;
+   
+}
+:root{
+    --bs-grassGreen: #586d45;
+    --bs-orange: #ecc052;
+    --bs-lightGreen: #c6d1ac;
+    --bs-green: #a5b29d;
+    --bs-lightPink: #fad4c8;
+    --bs-lightgray:#f1eae1;
+    --bs-gray:#c3cfc2;
+  }
+
+#nosotrasTitle{
+    font-family: 'Allura', sans-serif, cursive;
+    font-size: 72px;
+    color: var(--bs-grassGreen);
+    padding: 5rem;
+}
+
+.nosotrasImage{
+    width: 50%;
+}
+
+.nosotrasCopy{
+    font-family: 'Allura', sans-serif, cursive;
+    font-size: 40px;
+    text-align: center;
+    line-height: 38px;
+    margin: 6rem;
+    color: var(--bs-grassGreen);
+}
+
+.nosotrasCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    height: 100vh;
+    
+    
+}
+.background{
+    background-color: var(--bs-lightPink);
+    
+}

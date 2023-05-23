@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
 
 
-function Cards({ imagen, text }) {
+function Cards( props) {
   const [show, setShown] = useState(false);
 
   const props3 = useSpring({
@@ -12,6 +12,7 @@ function Cards({ imagen, text }) {
       ? "0 20px 25px rgb(0 0 0 / 25%)"
       : "0 2px 10px rgb(0 0 0 / 8%)"
   });
+  
   return (
     <animated.div
       className={Styles.card}
@@ -19,15 +20,9 @@ function Cards({ imagen, text }) {
       onMouseEnter={() => setShown(true)}
       onMouseLeave={() => setShown(false)}
     >
-      <img src={imagen} alt="" />
-      <h2>Title</h2>
-      <p>
-         psum dolor sit amet, consectetuer adipiscing elit, sed diam
-        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-        volutpat.
-      </p>
-      
-      
+    <img src={props.imagen} alt=""/>
+      <h2>{props.titulo}</h2>
+      <p>{props.texto}</p>
     </animated.div>
   );
 }

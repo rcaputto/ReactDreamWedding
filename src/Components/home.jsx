@@ -2,6 +2,7 @@
 
 import '../public/css/home.css';
 import CardsApp from './CardsApp';
+import Nosotras from './nosotras';
 
 
 
@@ -12,23 +13,23 @@ function Home() {
         <div className='homeImage' />
     
         <h1 className="slogan">
-          Tu boda, tu estilo, nuestra pasión!
+        “Es tu boda, tu la soñaste…. Nosotras te ayudamos a lograrlo.”
         </h1>
-        
-      
-    <br />
+      <br />
     </body>
+    <span id='us'></span>
+    <Nosotras/>
+    
     <span id='linkService' style={{  marginTop: "60rem" }}></span>
     <h1 className="service" >Nuestros servicios</h1>
     <h2 className="sloganCopy">
-          Creamos experiencias que duran toda la vida. <br />
-          Sin estrés ni preocupaciones...
+    “En nuestro punto de partida es esencial la conexión, la empatìa, conocernos y escucharnos.”
         </h2>
         <article className='carouselCard'>
     <CardsApp/>
     <br/>
     </article>
-      
+      <div className='break'/>
     </>
   )
 }
