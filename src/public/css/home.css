@@ -61,6 +61,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     animation: image 5s ease 0s 1 normal forwards;
+    margin-bottom:12rem;
     
   }
   @keyframes image {
@@ -76,10 +77,10 @@
 
 
   .logo{
-    width: 25%;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 35%;
+    /*box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
      margin-top: 6rem;
      margin-left: 2rem;
      animation: myAnim 1s ease 0s 1 normal forwards;
@@ -169,7 +170,7 @@
   }
 
   .slogan{
-    font-family: 'Allura', cursive;
+    font-family: 'Qwigley';
     font-size: 56px;
     color: var(--bs-lightPink);
     line-height: normal;
@@ -179,7 +180,7 @@
     width: 328px;
   }
   .sloganCopy{
-    font-family: 'Allura', cursive;
+    font-family: 'Qwigley', cursive;
     color: var(--bs-lightPink);
     font-size: 46px;
     font-weight: 600;
@@ -192,7 +193,7 @@
 
 
 .carrouselTitle{
-  font-family: 'Allura', cursive;
+  font-family: 'Qwigley', cursive;
     font-size: 46px;
     font-weight: 500;
     margin-top: 10rem;

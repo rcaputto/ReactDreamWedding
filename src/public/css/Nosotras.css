@@ -1,5 +1,5 @@
 .nosotras{
-    margin-top: 16rem;
+    margin-top: 27rem;
     margin-bottom: 4rem;
    
 }
@@ -14,10 +14,11 @@
   }
 
 #nosotrasTitle{
-    font-family: 'Allura', sans-serif, cursive;
+    font-family: 'Qwigley', cursive;
     font-size: 72px;
     color: var(--bs-grassGreen);
-    padding: 5rem;
+    padding: 2rem;
+    
 }
 
 .nosotrasImage{
@@ -25,8 +26,9 @@
 }
 
 .nosotrasCopy{
-    font-family: 'Allura', sans-serif, cursive;
-    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
     text-align: center;
     line-height: 38px;
     margin: 6rem;

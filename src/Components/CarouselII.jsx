@@ -30,6 +30,7 @@ export default function CarouselII(props) {
         showNavigation={showArrows}
         animationConfig={config.gentle}
       />
+      
     </div>
   );
 }

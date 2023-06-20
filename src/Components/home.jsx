@@ -2,6 +2,8 @@
 
 import '../public/css/home.css';
 import CardsApp from './CardsApp';
+import MainImage from './MainImage';
+import Navbar from './navBar';
 import Nosotras from './nosotras';
 
 
@@ -9,9 +11,10 @@ import Nosotras from './nosotras';
 function Home() {
   return (
     <>
+    <Navbar/>
       <body>
         <div className='homeImage' />
-    
+      <MainImage/>
         <h1 className="slogan">
         “Es tu boda, tu la soñaste…. Nosotras te ayudamos a lograrlo.”
         </h1>
@@ -27,6 +30,7 @@ function Home() {
         </h2>
         <article className='carouselCard'>
     <CardsApp/>
+    
     <br/>
     </article>
       <div className='break'/>
