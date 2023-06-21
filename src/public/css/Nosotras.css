@@ -31,20 +31,30 @@
     font-weight: lighter;
     text-align: center;
     line-height: 38px;
-    margin: 6rem;
+    width: 35rem;
+    margin-left: 55rem;
+    padding: 4rem;
     color: var(--bs-grassGreen);
 }
 
 .nosotrasCard{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 4rem;
+    
+    
+    
+
     height: 100vh;
+
+    
+    background-image: url('../images/nosotras.jpg');
+    background-size:50rem;
+    background-repeat: no-repeat;
+    background-position:left;
+    background-attachment: fixed;
     
     
 }
 .background{
     background-color: var(--bs-lightPink);
+    
     
 }
