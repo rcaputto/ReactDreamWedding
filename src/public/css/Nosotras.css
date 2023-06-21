@@ -18,12 +18,11 @@
     font-size: 72px;
     color: var(--bs-grassGreen);
     padding: 2rem;
+    margin-top: -14rem;
     
 }
 
-.nosotrasImage{
-    width: 50%;
-}
+
 
 .nosotrasCopy{
     font-family: 'Poppins', sans-serif;
@@ -31,9 +30,9 @@
     font-weight: lighter;
     text-align: center;
     line-height: 38px;
-    width: 35rem;
+    width: 28rem;
     margin-left: 55rem;
-    padding: 4rem;
+    padding: 2rem;
     color: var(--bs-grassGreen);
 }
 
@@ -42,7 +41,7 @@
     
     
 
-    height: 100vh;
+    height: 115vh;
 
     
     background-image: url('../images/nosotras.jpg');

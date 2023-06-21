@@ -61,7 +61,7 @@
     background-size:cover;
     background-repeat: no-repeat;
     animation: image 5s ease 0s 1 normal forwards;
-    margin-bottom:4rem;
+    
     
   }
   @keyframes image {
@@ -175,7 +175,7 @@
     color: var(--bs-lightPink);
     line-height: normal;
     font-weight: 550;
-    margin-top: -41rem;
+    margin-top: -24rem;
     margin-left: 60rem;
     width: 328px;
   }

@@ -20,7 +20,7 @@ function Navbar(){
               <li><Link to="#" className="links">INICIO</Link></li>
               <li><Link to="#" className="links">GALERIA</Link></li>
               <li> <a href='#linkService'> SERVICIOS</a></li>
-              <li><Link to="#us" className="links">NOSOTRAS</Link></li>
+              <li> <a href='#us'> NOSOTRAS</a></li>
               <li><Link to="#" className="links">BLOG</Link></li>
               <li><Link to="#" className="links">CONTACTO</Link></li>
               <div className="linea"></div>
