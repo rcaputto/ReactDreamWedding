@@ -1,4 +1,4 @@
-import mainImage from '../public/images/random/TDW-67.jpg'
+
 import '../public/css/MainImage.css'
 
 function MainImage (){
